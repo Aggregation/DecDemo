@@ -14,5 +14,10 @@ public class Sample3Test {
 	public void tests3t2() {
 		System.out.println("sample 3 t33");
 	}
+	
+	@Test(groups = "system")
+	public void tests3t3() {
+		System.out.println("sample 3 t33 Test");
+	}
 
 }
