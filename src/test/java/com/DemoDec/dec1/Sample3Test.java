@@ -5,19 +5,15 @@ import org.testng.annotations.Test;
 public class Sample3Test {
 	
 	@Test(groups = "smoke")
-	public void testS3()
+	public void sample1()
 	{
-		System.out.println("sample3 t3");
+		System.out.println("jenkins success");
 	}
 	
-	@Test(groups = "system")
-	public void tests3t2() {
-		System.out.println("sample 3 t33");
-	}
-	
-	@Test(groups = "system")
-	public void tests3t3() {
-		System.out.println("sample 3 t33 Test");
+	@Test(groups = "end")
+	public void sample2()
+	{
+		System.out.println("jenkins success sampe 2");
 	}
 
 }
