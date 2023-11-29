@@ -7,7 +7,7 @@ public class Sample3Test {
 	@Test(groups = "smoke")
 	public void sample1()
 	{
-		System.out.println("jenkins success");
+		System.out.println("----by jenkins success");
 	}
 	
 	@Test(groups = "end")
