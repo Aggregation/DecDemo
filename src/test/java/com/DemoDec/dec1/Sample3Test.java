@@ -13,7 +13,7 @@ public class Sample3Test {
 	@Test(groups = "smoke")
 	public void sample2()
 	{
-		System.out.println("---jenkins success sampe 2");
+		System.out.println("---jenkins success sample 2");
 	}
 
 }
